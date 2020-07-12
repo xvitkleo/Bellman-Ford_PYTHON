@@ -1,0 +1,2 @@
+El codigo esta hecho con python 2.7 y funciona con versiones posteriores
+Utiliza la libreria Texttable para imprimir en una tabla, por lo que debera ejecutar el comando 'pip install Texttable' en el cmd
