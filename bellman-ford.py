@@ -113,7 +113,7 @@ def crearGrafo():
             print('Aristas: ')
             for v in g:
                 for dest in v.get_nodos_adyacentes():
-                    w = v.get_weight(dest)
+                    w = v.get_peso(dest)
                     print('(src={}, dest={}, peso={}) '.format(v.get_key(),
                                                                  dest.get_key(), w))
             print()
